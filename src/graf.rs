@@ -13,13 +13,13 @@ struct Hrana {
 }
 
 impl Graf {
-    pub fn new(n: u32, m: u32) -> Graf { //priprava na tvorbu noveho grafu keby ho nenacitavame zo suboru
+    /*pub fn new(n: u32, m: u32) -> Graf { //priprava na tvorbu noveho grafu keby ho nenacitavame zo suboru
         Graf {
             n,
             m,
             edges: Vec::new(),
         }
-    }
+    }*/
 
     /*
         Nacitanie grafu zo suboru:
